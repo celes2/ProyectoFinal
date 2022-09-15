@@ -1,0 +1,23 @@
+<p-image width="100%" height="110%"
+    src="https://i.pinimg.com/550x/ec/e8/83/ece883dd6cdc00f0b29847e8a798a2af.jpg">
+</p-image>
+
+<p-carousel [value]="pulseras" [autoplayInterval]="3000" [circular]="true" [numVisible]="5" [numScroll]="1">
+    <ng-template let-pulsera pTemplate="item">
+        <img src="{{pulsera}}" alt="" width="200px" height="250">
+    </ng-template>
+</p-carousel>
+
+<!-- 
+<body>
+    <main>
+        <div class="p-5 mb-4 rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-4"></h1>
+                <p class="col-md-8 fw-4"></p>
+                <button class="btn btn-lg" type="button">Ver mas</button>
+            </div>
+        </div>
+    </main>
+</body> -->
+

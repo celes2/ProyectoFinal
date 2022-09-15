@@ -1,0 +1,58 @@
+body{
+    background-image: url("../../../assets/fondoC.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    padding-bottom: 25%;
+}
+
+.con{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(20, 20, 20);
+    font-size: 40px;
+    line-height: 1.6em;
+    letter-spacing: 0;
+    text-transform: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(20, 20, 20);
+    font-size: 30px;
+    line-height: 1.6em;
+    letter-spacing: 0;
+    text-transform: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.face{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    margin: 5px 2px;
+}
+
+.face:hover{
+    opacity: 0.7;
+}
+
+.fab{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    margin: 5px 2px;
+}
+
+.fab:hover{
+    opacity: 0.7;
+}
+
